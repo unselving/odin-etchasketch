@@ -1,0 +1,20 @@
+#grid-container{
+    width:960px;
+    height:960px;
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    
+}
+
+.grid-row{
+    flex:1;
+    display:flex;
+    justify-content: center;
+
+}
+.grid-cell{
+    flex:1;
+
+}
+
